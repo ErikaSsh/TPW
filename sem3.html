@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<body>
+    <form action="">
+        <label for="">Nombre</label> <br>
+        <label for="">Direccion</label> <br>
+        <label for="">Telefono</label> <br>
+    </form>
+
+    <form action="">
+        <label for="">Ingresar nombre</label>
+        <input type="text" name="nombre">
+    </form>
+
+    <form action="">
+        <label for="">Tus actividades preferidad son:</label> <br>
+        <input type="checkbox" name="Peliculas">Peliculas <br>
+        <input type="checkbox" name="Deportes">Deportes <br>
+        <input type="checkbox" name="VideoJuegos">Video Juegos <br>
+    </form>
+
+    <form action="">
+        <label for="">Condicion civil:</label> <br>
+        <input type="radio" name="civil">Soltero <br>
+        <input type="radio" name="civil">Casado <br>
+        <input type="radio" name="civil">Viudo <br>
+        <input type="radio" name="civil">Divorsiado <br>
+    </form>
+
+    <input type="button" name="saludo" value="Hola, este boton no hace nada">
+
+    <button type="button"> 
+        <img src="check.png" alt="check" style="vertical-align: middle;">
+        Este boton, aun no hace nada
+    </button>
+
+    <form action="">
+        <label for="">Ingresar tu nombre:</label> <br>
+        <input type="text" name="nombre">
+        <input type="submit" name="enviar" value="Enviar informacion">
+    </form>
+
+    <form action="">
+        <label for="">Nombre</label> <br>
+        <input type="text" name="nombre" placeholder="Escribir nombre"> <br>
+        <input type="radio" name="genero" value="Masculino" checked="">Masculino <br>
+        <input type="radio" name="genero" value="Masculino" checked="">Femenino <br> <br>
+        <input type="checkbox" name="aceptacion">Aceptp termino <br> <br>
+        <input type="reset" name="reinicirar" value="Reiniciar formulario">
+        <input type="submit" name="enviar" value="Enviar mensaje">
+    </form>
+
+    <br>LISTAS
+
+    <form action="">
+        <label for="">Grado de instruccion: </label>
+        <select name="Grado">
+            <option>Primaria</option>
+            <option>Secundaria</option>
+            <option>Superior</option>
+        </select>
+    </form>
+
+    <H3>LISTAS MULTIPLES</H3>
+
+    <form action="">
+        <label for="">Redes sociales que utilizas: </label> <br>
+        <select multiple="" name="redes[]" size="4">
+            <option value="Facebook">Facebook</option>
+            <option value="Facebook">Twitter</option>
+            <option value="Facebook">Instagram</option>
+            <option value="Facebook">Snapchat</option>
+            <option value="Facebook">Spotify</option>
+            <option value="Facebook">TikTok</option>
+        </select>
+    </form>
+    
+    <br>CAJA DE TEXTO DE MULTIPLES LINEAS <br>
+
+    <form action="">
+        <label>Deja un mensaje: </label> <br>
+        <textarea name="msj"></textarea>
+    </form>
+
+</body>
